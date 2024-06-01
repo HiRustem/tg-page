@@ -60,6 +60,16 @@ module.exports = {
       template: 'src/index.html',
       chunks: ['main']
     }),
+    new HtmlWebpackPlugin({
+      filename: 'privacy.html',
+      template: 'src/pages/privacy.html',
+      chunks: ['main']
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'terms.html',
+      template: 'src/pages/terms.html',
+      chunks: ['main']
+    }),
     new MiniCssExtractPlugin(),
     new CleanWebpackPlugin(),
   ]
