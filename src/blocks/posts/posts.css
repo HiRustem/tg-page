@@ -13,6 +13,7 @@
 
 .post {
     display: flex;
+    flex-direction: column;
 
     gap: 1rem;
 }
@@ -40,17 +41,26 @@
 
     gap: 1rem;
 
-    max-inline-size: 500px;
+    max-inline-size: 100%;
+
+    padding: .5rem;
+
+    border-radius: 1rem;
+
+    background: rgb(41, 80, 105);
+    background: linear-gradient(150deg, rgba(41, 80, 105, 0.5746673669467788) 0%, rgba(23, 67, 140, 1) 51%, rgba(20, 41, 92, 0.5802696078431373) 100%);
 }
 
 .post__title {
-    font-weight: 600;
+    font-weight: 700;
     font-size: clamp(0.8rem, 0.7296rem + 0.3005vw, 1rem);
 }
 
 .post__image,
 .posts__video {
     inline-size: 100%;
+
+    border-radius: 1rem;
 }
 
 .post__text {
