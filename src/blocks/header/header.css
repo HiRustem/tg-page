@@ -4,6 +4,13 @@
     gap: 1rem;
 
     align-items: center;
+
+    padding-block: .5rem;
+
+    background-color: #01101b;
+
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .header__avatar {

@@ -33,9 +33,7 @@
     gap: .2rem;
     align-items: center;
 
-    inline-size: 11rem;
-
-    padding: clamp(0.2rem, 0.0944rem + 0.4507vw, 0.5rem);
+    padding: .5rem;
     margin-inline: auto;
 
     background: rgb(0, 153, 250);
