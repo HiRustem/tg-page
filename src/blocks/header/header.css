@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+
+    gap: 1rem;
+
+    align-items: center;
+
+    font-weight: 400;
+}
+
+.header__avatar {
+    block-size: 2.5rem;
+    min-inline-size: 2.5rem;
+
+    cursor: pointer;
+}
+
+.header__avatar-image {
+    block-size: 100%;
+    inline-size: 100%;
+
+    border-radius: 50%;
+}
+
+.header__title {
+    font-size: clamp(1rem, 0.9296rem + 0.3005vw, 1.2rem);
+    font-weight: 400;
+}
+
+.header__subscribers {
+    color: gray;
+}

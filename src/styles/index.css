@@ -1,0 +1,58 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts.css');
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/posts/posts.css');
+
+.page {
+    position: relative;
+
+    padding-block-end: 2rem;
+
+    background-color: #011A2F;
+
+    font-family: 'OpenSans', sans-serif;
+    /* font-size: 1.5rem; */
+    font-weight: 600;
+
+    color: #fff;
+
+    overflow-x: hidden;
+}
+
+.section {
+    max-width: 600px;
+
+    margin-inline: auto;
+
+    padding-inline: 1rem;
+}
+
+.bot-link {
+    display: flex;
+    gap: .2rem;
+    align-items: center;
+
+    inline-size: 11rem;
+
+    padding: clamp(0.5rem, 0.3239rem + 0.7512vw, 1rem);
+    margin-inline: auto;
+
+    background: rgb(0, 153, 250);
+    background: linear-gradient(150deg, rgba(0, 153, 250, 1) 0%, rgba(25, 81, 224, 1) 100%);
+    border-radius: 1rem;
+
+    font-size: .8rem;
+    color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.bot-link:hover {
+    -webkit-box-shadow: 0px 0px 27px 8px rgba(0, 153, 250, 0.2);
+    -moz-box-shadow: 0px 0px 27px 8px rgba(0, 153, 250, 0.2);
+    box-shadow: 0px 0px 27px 8px rgba(0, 153, 250, 0.2);
+
+    cursor: pointer;
+}
