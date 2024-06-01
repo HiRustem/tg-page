@@ -28,6 +28,8 @@
 }
 
 .header__subscribers {
+    font-size: smaller;
     font-weight: 400;
+    text-align: center;
     color: gray;
 }
