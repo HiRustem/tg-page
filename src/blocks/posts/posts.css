@@ -114,7 +114,7 @@
 }
 
 .post__footer-views {
-    font-size: clamp(0.8rem, 0.7296rem + 0.3005vw, 1rem);
+    font-size: clamp(0.6rem, 0.5296rem + 0.3005vw, 0.8rem);
     color: #808080;
 }
 
