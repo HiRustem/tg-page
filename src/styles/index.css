@@ -58,3 +58,7 @@
 
     cursor: pointer;
 }
+
+.bot-link_header {
+    margin-inline: 0;
+}

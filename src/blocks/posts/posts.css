@@ -1,5 +1,5 @@
 .posts {
-    margin-block-start: 2rem;
+    margin-block-start: 4.5rem;
 }
 
 .posts__list {
@@ -64,8 +64,18 @@
 }
 
 .post__text {
-    font-weight: 600;
+    font-weight: 400;
     font-size: clamp(0.8rem, 0.7296rem + 0.3005vw, 1rem);
+}
+
+.post__link {
+    font-weight: 400;
+    font-size: clamp(0.8rem, 0.7296rem + 0.3005vw, 1rem);
+}
+
+.post__link-url {
+    color: rgb(0, 153, 250);
+    text-decoration: none;
 }
 
 .post__reactions {
